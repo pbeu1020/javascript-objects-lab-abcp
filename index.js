@@ -32,6 +32,6 @@ function  {
 
 // destructivelyDeleteFromObjectByKey(object, key) modifies the original object:
 
-function  {
+function destructivelyDeleteFromObjectByKey(object, key) {
   
 }
