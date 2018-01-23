@@ -36,6 +36,11 @@ function deleteFromObjectByKey(object, key) {
 // destructivelyDeleteFromObjectByKey(object, key) modifies the original object:
 
 function destructivelyDeleteFromObjectByKey(object, key) {
-  delete [key];
+  /*delete [key];
+  return object;  
+  */
+  Object.assign({}, object, {key});
+  object.key=value;
+  delete object.key;
   return object;  
 }
