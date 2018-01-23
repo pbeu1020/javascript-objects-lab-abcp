@@ -22,7 +22,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 
 // deleteFromObjectByKey(object, key) does not modify the original object (it is non-destructive):
 
-function  {
+function deleteFromObjectByKey(object, key) {
   
 }
 
