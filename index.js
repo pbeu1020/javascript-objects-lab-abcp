@@ -10,7 +10,7 @@ function updateObjectWithKeyAndValue(object, key, value) {
 
 // updateObjectWithKeyAndValue(object, key, value) it does not modify the original object, but rather returns a clone with the new data:
 function updateObjectWithKeyAndValue(object, key, value) {
-  return Object.assign({}, object, key, value);
+  return Object.assign({}, object, {key, value});
   // var newObject = Object.assign({}, object, key, value);
   // return newObject;
 }
